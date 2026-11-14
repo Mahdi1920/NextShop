@@ -1,0 +1,16 @@
+{
+  "name": "seller-review-agent",
+  "projectType": "application",
+  "sourceRoot": "seller-review-agent/app",
+  "tags": ["scope:ai-agent", "type:application"],
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "continuous": true,
+      "options": {
+        "command": "python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+        "cwd": "seller-review-agent"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+﻿# Dependencies
+node_modules/
+
+# Nx and build output
+.nx/
+dist/
+build/
+coverage/
+**/.next/
+.agents/
+.codex/
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs and crash dumps
+*.log
+*.stackdump
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+nx
+nx.bat
+nx.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

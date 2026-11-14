@@ -1,0 +1,17 @@
+# Dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+/coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs and OS files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.pem

@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "src",
+    ".env"
+  ],
+  "ignore": [
+    "dist",
+    "node_modules"
+  ],
+  "exec": "ts-node src/main.ts",
+  "ext": "ts,js,json,env"
+}
+
+

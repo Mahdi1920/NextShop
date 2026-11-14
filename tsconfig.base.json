@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "bundler",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": false,
+    "target": "es2020",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strict": false,
+    "typeRoots": [
+      "./e-commercefrontend/node_modules/@types"
+    ],
+    "paths": {
+      "@shared/*": ["./frontend-shared/src/*"],
+      "react": ["./e-commercefrontend/node_modules/@types/react"],
+      "react/*": ["./e-commercefrontend/node_modules/@types/react/*"],
+      "react/jsx-runtime": ["./e-commercefrontend/node_modules/@types/react/jsx-runtime"],
+      "react-dom": ["./e-commercefrontend/node_modules/@types/react-dom"],
+      "react-dom/*": ["./e-commercefrontend/node_modules/@types/react-dom/*"],
+      "next": ["./e-commercefrontend/node_modules/next"],
+      "next/*": ["./e-commercefrontend/node_modules/next/*"],
+      "socket.io-client": ["./e-commercefrontend/node_modules/socket.io-client"],
+      "axios": ["./e-commercefrontend/node_modules/axios"],
+      "zod": ["./e-commercefrontend/node_modules/zod"],
+      "@mui/material": ["./e-commercefrontend/node_modules/@mui/material"],
+      "@mui/material/*": ["./e-commercefrontend/node_modules/@mui/material/*"],
+      "@mui/icons-material/*": ["./e-commercefrontend/node_modules/@mui/icons-material/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"sellerId":{"$numberInt":"1"}},"name":"sellerId_1","background":true},{"v":{"$numberInt":"2"},"key":{"categoryId":{"$numberInt":"1"}},"name":"categoryId_1","background":true}],"uuid":"5120e5c54e8349d6950a450e95808f34","collectionName":"products","type":"collection"}

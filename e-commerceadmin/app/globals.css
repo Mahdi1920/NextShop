@@ -1,0 +1,12 @@
+:root {
+  --background: #f8fafc;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+}
